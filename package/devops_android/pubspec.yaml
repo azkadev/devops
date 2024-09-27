@@ -1,0 +1,33 @@
+name: 'devops_android'
+description: 'A sample command-line application.'
+version: '0.0.0'
+homepage: 'https://github.com/{main_username_owner}/devops'
+repository: 'https://github.com/{main_username_owner}/devops'
+issue_tracker: 'https://github.com/{main_username_owner}/devops/issues'
+documentation: 'https://github.com/{main_username_owner}/devops/tree/main/docs'
+funding: 
+  - 'https://github.com/sponsors/{main_username_owner}'
+  - 'https://github.com/sponsors/{main_username_owner}'
+  - 'https://github.com/sponsors/azkadev'
+  - 'https://github.com/sponsors/generalfoss'
+platforms: 
+  android: null
+  ios: null
+  linux: null
+  macos: null
+  web: null
+  windows: null
+environment: 
+  sdk: '>=3.3.3 <4.0.0'
+  flutter: '>=1.17.0'
+dependencies: 
+  flutter: 
+    sdk: 'flutter'
+dev_dependencies: 
+  flutter_test: 
+    sdk: 'flutter'
+  flutter_lints: '^4.0.0'
+flutter: null
+publish_to: 'none'
+dependency_overrides: 
+  pointycastle: '3.8.0'

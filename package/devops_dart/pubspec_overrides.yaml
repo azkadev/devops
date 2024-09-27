@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: edge_dart_runtime
+dependency_overrides:
+  devops:
+    path: ../devops
+  devops_scheme:
+    path: ../devops_scheme
